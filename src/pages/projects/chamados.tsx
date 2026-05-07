@@ -13,13 +13,13 @@ import ProjectOverview from '../../components/project/ProjectOverview';
 import TechStack from '../../components/project/TechStack';
 import TechnicalHighlights from '../../components/project/TechnicalHighlights';
 
-import inovai from '../../assets/project_icons/inovai.png';
+import chamados from '../../assets/project_icons/chamados.png';
 
-const Inovai = () => {
+const Chamados = () => {
   return (
     <ProjectLayout>
       <ProjectHeader
-        icon={inovai}
+        icon={chamados}
         title="Service Request and Inventory Management System"
         subtitle="Developed at INOVAÍ for the Municipal Secretariat of Technology of Piraí, Rio de Janeiro"
         githubUrl="https://github.com/Kaiqapenas/chamados_smcti_pirai"
@@ -83,4 +83,4 @@ const Inovai = () => {
   );
 };
 
-export default Inovai;
+export default Chamados;

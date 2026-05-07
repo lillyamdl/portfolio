@@ -11,7 +11,7 @@ import './App.css'
 // Lazy load project pages - add your project page imports here
 // Example: const MyProject = lazy(() => import('./pages/projects/MyProject'))
 const Contact = lazy(() => import('./pages/Contact'))
-const Inovai = lazy(() => import('./pages/projects/chamados'))
+const Chamados = lazy(() => import('./pages/projects/chamados'))
 const Bakery = lazy(() => import('./pages/projects/Bakery'))
 const Dengue = lazy(() => import('./pages/projects/dengue'))
 
@@ -100,7 +100,7 @@ function AppContent() {
               <Route path="/" element={<HomePage />} />
               <Route path="/contact" element={<Contact />} />
               {/* Add your project routes here */}
-              <Route path="/projects/inovai" element={<Inovai />} />
+              <Route path="/projects/chamados" element={<Chamados />} />
               <Route path="/projects/bakery" element={<Bakery />} />
               <Route path="/projects/dengue" element={<Dengue />} />
               {/* Example: <Route path="/projects/my-project" element={<MyProject />} /> */}
