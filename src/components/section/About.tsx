@@ -296,7 +296,7 @@ console.log(profile1, profile2, profile3);
         </picture>
 
         {/* left page photo */}
-        <div className="absolute left-[12%] top-[26%] w-[24%] z-30">
+        <div className="absolute left-[13%] top-[28%] w-[26%] md:left-[12%] md:top-[26%] md:w-[24%] z-30">
           <img
             src={profile1}
             alt="Profile"
@@ -305,7 +305,7 @@ console.log(profile1, profile2, profile3);
         </div>
 
         {/* right page text */}
-        <div className="absolute right-[9%] top-[14%] w-[34%] z-30 text-left">
+        <div className="absolute right-[8%] top-[16%] w-[38%] md:right-[9%] md:top-[14%] md:w-[34%] z-30 text-left">
           <h3 className="crayon-font text-pink-700 mb-4"
               style={{ fontSize: 'clamp(24px, 2.4vw, 42px)', lineHeight: '1' }}
           >
@@ -313,7 +313,7 @@ console.log(profile1, profile2, profile3);
           </h3>
 
           <p className="crayon-font text-stone-800"
-              style={{ fontSize: 'clamp(14px, 1.15vw, 20px)', lineHeight: '1.55', maxWidth: "100%" }}
+              style={{fontSize: 'clamp(8px, 2vw, 20px)',lineHeight: '1.45',maxWidth: '100%'}}
           >
             I’m Lillya Maria, a software developer passionate about building
             meaningful digital experiences. I enjoy creating interfaces, solving problems, and learning new technologies that challenge the way I think and create.

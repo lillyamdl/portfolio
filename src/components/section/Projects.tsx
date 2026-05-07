@@ -234,24 +234,24 @@ const Projects = () => {
       description: "Developed a management and inventory API for a bakery using to support daily operations, stock control, and workflow organization. The system tracks inventory levels in real time, manages product availability, and sends direct notifications to the manager about low-stock items and operational updates, enabling faster decision-making and improving efficiency.",
       technologies: ["Python", "Django", "SQL","JavaScript"],
       icon: bakery,
-      detailsUrl: "/projects/project-one",
-      githubUrl: socialLinks.repositories.projectOne
+      detailsUrl: "/projects/bakery",
+      githubUrl: "https://github.com/Jose-George/api-padaria"
     },
     {
       title: "Neural network for object recognition",
       description: "Developed a convolutional neural network as the final project of my PIVIC research, focused on identifying swimming pools from satellite imagery to support dengue prevention efforts. The project involved dataset creation, image annotation, preprocessing, model training, and validation. The resulting study was published as a research article, demonstrating the potential of computer vision techniques to assist public health monitoring and the identification of potential mosquito breeding hotspots.",
       technologies: ["Python", "Jupiter Notebook", "TensorFlow", "OpenCV"],
       icon: dengue,
-      detailsUrl: "/projects/project-two",
-      githubUrl: socialLinks.repositories.projectTwo
+      detailsUrl: "/projects/dengue",
+      githubUrl: "https://github.com/lillyamdl/Aprendizado-de-maquina-para-reconhecer-objetos"
     },
     {
       title: "Service request and inventory management system",
       description: "Developed a service request and inventory management system at INOVAÍ, a state technology laboratory, for the Municipal Secretariat of Technology of Piraí, Rio de Janeiro. The project included both desktop and mobile platforms, supporting operational workflows, service ticket management, item tracking, and inventory control. Contributed to the design of user interfaces, system architecture, and full-stack development to deliver a practical solution for daily administrative operations.",
       technologies: ["JavaScript", "CSS", "HTML", "Django", "Python"],
       icon: chamados,
-      detailsUrl: "/projects/project-three",
-      githubUrl: socialLinks.repositories.projectThree
+      detailsUrl: "/projects/chamados",
+      githubUrl: "https://github.com/Kaiqapenas/chamados_smcti_pirai"
     },
   ];
 

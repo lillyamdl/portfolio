@@ -9,6 +9,7 @@ import { socialLinks } from '../config/socialLinks';
 const Contact = () => {
   const { isDarkMode } = useDarkMode();
   const themeColors = useThemeColors();
+  console.log('socialLinks:', socialLinks);
 
   // Scroll to top when component mounts
   React.useEffect(() => {
